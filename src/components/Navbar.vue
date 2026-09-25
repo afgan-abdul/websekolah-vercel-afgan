@@ -15,7 +15,7 @@
 <style scoped>
 .atas{
   color: white;
-  background-color: rgb(20, 20, 19);
+  background: linear-gradient(to bottom, #014d26, #17894e);
   border-radius: 10px;
   padding: 5px;
   text-align: center;

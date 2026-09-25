@@ -1,7 +1,9 @@
+<script setup>
+import AboutCard from '../components/AboutCard.vue'
+</script>
+
 <template>
   <main>
-    <h1>Tentang Kami</h1>
-    <p>Onlineshop ini dikelola oleh siswa SMK Yadika Soreang jurusan 
-PPLG.</p>
+    <AboutCard/>
   </main>
 </template>

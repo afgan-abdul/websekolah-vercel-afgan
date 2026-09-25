@@ -12,7 +12,7 @@
 
         <div class="info-item">
           <h3>📍 Alamat</h3>
-          <p>Jl. Pendidikan No. 10, Bogor</p>
+          <p>Jl. Cibayawak, tukangen jalak</p>
         </div>
 
         <div class="info-item">
@@ -169,7 +169,7 @@ button:hover {
 .contact-page {
   min-height: 100vh;
   padding: 40px 45px;
-  background: #2702f8;
+
   color: #0c0c0c;
 }
 
@@ -182,7 +182,7 @@ button:hover {
 /* Garis */
 .contact-page hr {
   border: none;
-  border-top: 3px solid #a4c718;
+  border-top: 3px solid #18b8c7;
   margin-bottom: 25px;
 }
 
@@ -203,10 +203,10 @@ button:hover {
 .contact-form {
   flex: 1;
   padding: 30px;
-  background: #e3f705;
+  background: #1f974d;
   border: 1px solid #151515;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgb(31, 3, 241);
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
 }
 
 .contact-info h2,
@@ -240,7 +240,7 @@ button:hover {
   border: 1px solid #1a1a1a;
   border-radius: 8px;
 
-  background: #c1ec04;
+  
   color: rgb(17, 17, 17);
 
   font-size: 15px;

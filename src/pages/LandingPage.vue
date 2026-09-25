@@ -178,7 +178,7 @@
 
     <!-- 1. Hero Section (Gradasi Sunset: Coral to Teal) -->
     <section class="hero-card">
-      <h1 class="hero-title">Lengkapi Kebutuhan hirup maneh ulah ngaheseken!</h1>
+      <h1 class="hero-title">Lengkapi Kebutuhan maneh dengan membeli mobil ie!</h1>
       <p class="hero-subtitle">
         tinggal meli mobil ieu nu harga na murah.
       </p>
@@ -188,10 +188,12 @@
         tinggali produkna
       </RouterLink>
     </section>
+    <center>
     <video controls width="480" muted loop>
       <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
 
     </video>
+    </center>
     <!-- 2. Fitur Section (3 Kartu Bayangan + Hover) -->
     <section class="features-grid">
       <div class="feature-card">
@@ -221,6 +223,10 @@
 </template>
 
 <style scoped>
+
+video{
+  margin-top: 25px;
+}
 /* Container Utama */
 .landing-wrapper {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -264,7 +270,7 @@
 
 /* 1. HERO SECTION (Gradasi Beda: Sunset Coral ke Emerald Teal) */
 .hero-card {
-  background: linear-gradient(135deg, #181717 0%, #072ff7 40%, #e1f108ee 100%);
+  background: linear-gradient(to bottom, #181717, #072ff7);
   border-radius: 20px;
   padding: 70px 30px;
   text-align: center;
@@ -320,7 +326,7 @@
 
 /* Kartu Fitur (Bayangan Lengkung + Hover) */
 .feature-card {
-  background: #f007e1;
+  background: #28068f;
   border-radius: 16px;
   padding: 30px 24px;
   flex: 1;
@@ -352,13 +358,13 @@
 .feature-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #f1f3f6;
   margin-bottom: 8px;
 }
 
 .feature-desc {
   font-size: 0.85rem;
-  color: #64748b;
+  color: #cdcecf;
   line-height: 1.5;
 }
 
